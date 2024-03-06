@@ -1,0 +1,67 @@
+{
+  "name": "jeztofr/azto",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/command/ping.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ping"
+      }
+    },
+    "functions/command/help.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "help"
+      }
+    },
+    "functions/command/welcome.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/command/kick.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "kick"
+      }
+    },
+    "functions/command/warn.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "warn"
+      }
+    },
+    "functions/command/purge.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "purge"
+      }
+    },
+    "functions/command/embed.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "embed"
+      }
+    },
+    "functions/command/bebot.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "bebot"
+      }
+    },
+    "functions/command/ban.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ban"
+      }
+    },
+    "functions/bot_mention.js": {
+      "name": "discord.bot_mention"
+    },
+    "functions/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "member-count"
+      }
+    }
+  }
+}
